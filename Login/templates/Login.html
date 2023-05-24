@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Login</title>
+
+        {% load static %}
+        <link rel="stylesheet" href="{% static "css/styles.css" %}" type="text/css" media="all">
+    </head>
+    <body>
+        <div class="organizate">
+            <div class="login-container">
+                <h1>Login para el Pollito</h1>
+                <form method="POST">
+                    {% csrf_token %}
+                    <input type="text" placeholder="Nombre de usuario" name="user">
+                    <input type="password" placeholder="Contraseña" name="password">
+                    <button type="submit">Iniciar sesión</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

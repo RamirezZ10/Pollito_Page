@@ -1,0 +1,6 @@
+{% extends "Base_IMGS.html" %}
+
+{% block imgs %}
+    {% load static %}
+    <img src="{% static 'img/fotitos/' %}{{ i }}.jpg" alt="Imagen {{ i }}" class="image">
+{% endblock %}

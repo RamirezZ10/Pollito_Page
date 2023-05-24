@@ -1,0 +1,14 @@
+{% extends "Base.html" %}
+
+{% block content %}
+    <div class="gallery">
+        {% for i in numbers %}
+            <div class="image-container">
+                {% block imgs %}
+                    
+                {% endblock imgs %}
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}
+
