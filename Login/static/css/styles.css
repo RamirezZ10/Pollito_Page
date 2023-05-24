@@ -88,10 +88,10 @@ a:hover {
 
 .title {
     font-family: "Times New Roman";
-    text-align: center;
+    text-align: left;
     color: #fff;
-    font-size: 20px;
-    margin-left: 20px;
+    font-size: 18;
+    margin-left: 10px;
 }
 
 .gallery {
