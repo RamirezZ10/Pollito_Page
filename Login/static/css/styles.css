@@ -52,6 +52,7 @@ button:hover {
 .navbar {
   background-color: #e91e63;
   height: 100px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
